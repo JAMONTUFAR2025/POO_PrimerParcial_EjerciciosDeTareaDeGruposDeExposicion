@@ -194,7 +194,7 @@ public class Bucle_For
             contador++;
         }
 
-        System.out.println("Total de multiplos encontrador: " + contador);
+        System.out.println("\nTotal de multiplos encontrados: " + contador);
     }
 
     // Ejercicio 8 Inverso de una cadena

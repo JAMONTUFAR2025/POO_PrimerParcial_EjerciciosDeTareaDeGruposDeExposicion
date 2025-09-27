@@ -10,6 +10,55 @@ public class Condicional_If {
     private int mayor;
     private int menor;
 
+    // Ejercicios en clase
+    // Ejercicio 1
+    public void esMayorQueDiez()
+    {
+        int integer = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero entero: "));
+
+        if (integer > 10)
+            System.out.println("Es mayor que 10.");
+        else
+            System.out.println("No es mayor que 10.");
+    }
+
+    // Ejercicio 2
+    public void esMayorDeEdad()
+    {
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su edad: "));
+
+        if (age >= 18)
+            System.out.println("Es mayor de edad.");
+        else
+            System.out.println("Es menor de edad.");
+    }
+
+    // Ejercicio 3
+    public void palabraCorrecta()
+    {
+        String name = JOptionPane.showInputDialog("Ingrese su nombre: ");
+
+        if (name.equals("Leo"))
+            System.out.println("La palabra es correcta.");
+        else
+            System.out.println("La palabra es incorrecta.");
+    }
+
+    // Ejercicio 4
+    public void positivoNegativo()
+    {
+        int number;
+        number = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
+
+        if (number > 0)
+            System.out.println("El numero es positivo.");
+        else if (number < 0)
+            System.out.println("El numero es negativo.");
+        else
+            System.out.println("El numero es 0.");
+    }
+
+    // Ejercicios de Tarea
     // Ejercicio 1
     public void parImpar()
     {
